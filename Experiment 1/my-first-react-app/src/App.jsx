@@ -1,12 +1,19 @@
-import { useState } from 'react'
 import './App.css'
+import Counter from './Counter'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
       <h1>First React Experiment</h1>
+      <h2>Counter 1: </h2>
+      <Counter />
+
+      <h2>Counter 2: </h2>
+      <Counter />
+
+      <h2>Counter 3: </h2>
+      <Counter />
     </div>
   )
 }
