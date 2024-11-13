@@ -1,4 +1,4 @@
-
+/* Currently not used yet */
 const About = () => {
 
     /* Returns all needed content to display in About page */
