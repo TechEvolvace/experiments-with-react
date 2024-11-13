@@ -1,6 +1,6 @@
 // import './App.css'
 
-import {Home, About, Process} from './Webpages'
+import {About} from './Webpages'
 
 function App() {
 

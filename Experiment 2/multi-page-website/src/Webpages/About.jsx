@@ -1,5 +1,5 @@
 
-export default function About(){
+const About = () => {
 
     /* Returns all needed content to display in About page */
     return (
@@ -8,3 +8,5 @@ export default function About(){
         </>
     )
 }
+
+export default About;
