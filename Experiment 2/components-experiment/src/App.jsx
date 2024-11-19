@@ -1,10 +1,11 @@
 import './App.css'
+import { Title } from "./Components/Components.js"
 
 function App() {
   
   return (
     <>
-      <h1 id="title">Welcome to Experiment 2!</h1>
+      <Title />
     </>
   )
 }
