@@ -4,6 +4,7 @@
     JSX file.
 */
 import Title from "./Title"
+import ExperimentCard from "./ExperimentCard"
 
 
 /*  
@@ -16,4 +17,4 @@ import Title from "./Title"
     each component one-by-one from each of 
     the JSX files under Components folder!
 */
-export { Title }
+export { Title, ExperimentCard }

@@ -12,7 +12,7 @@ import './App.css'
   the Components folder, where they are originally 
   created and exported from!
 */
-import { Title } from "./Components/Components.js"
+import { Title, ExperimentCard } from "./Components/Components.js"
 
 /* 
   This App component contains all the content 
@@ -23,6 +23,7 @@ function App() {
   return (
     <>
       <Title />
+      <ExperimentCard />
     </>
   )
 }
