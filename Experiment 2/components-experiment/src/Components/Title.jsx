@@ -1,5 +1,15 @@
+/* 
+    Title component with appearance designed by inline-CSS 
+    in the form of an object with CSS properties mapped to specific 
+    values. 
+*/
 const Title = () => {
-    <h1 style="color: blue; font-size: 2em;">Experiment 2 of the React Experiments</h1>
+
+    return(
+        <h1 style={{color: "green", fontSize: "2em", flex: "flex", textDecoration: "underline 3px", justifySelf: "center"}}>
+            Title for Experiment 2
+        </h1>
+    )
 }
 
-export default Title;
+export default Title
