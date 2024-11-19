@@ -12,4 +12,8 @@ const Title = () => {
     )
 }
 
+/* 
+    Title component is exported from this file, so the 
+    Component.js file can import the Title component. 
+*/
 export default Title
