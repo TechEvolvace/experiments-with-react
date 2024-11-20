@@ -15,7 +15,7 @@ const Experiment_Card = () => {
     return (
         <>
             <div className="experiment-card">
-                <h2>Experiment Card</h2>
+                <h2>This is the Experiment Card component, looks like a card containing details about Experiment 2!</h2>
                 <Details />
             </div>
         </>
