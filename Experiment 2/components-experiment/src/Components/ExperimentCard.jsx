@@ -11,15 +11,20 @@ import "./ExperimentCard.css"
 */
 import { Details } from "./Card Components/Card Components.js"
 
+/* 
+    This Experiment_Card component is the card displayed on the
+    website with the Details component inside! 
+*/
 const Experiment_Card = () => {
     return (
         <>
             <div className="experiment-card">
-                <h2>Experiment Card</h2>
+                <h2>This is the Experiment Card component, looks like a card containing details about Experiment 2!</h2>
                 <Details />
             </div>
         </>
     )
 }
 
+/* Exporting the Experiment_Card component out of this JSX file! */
 export default Experiment_Card;
