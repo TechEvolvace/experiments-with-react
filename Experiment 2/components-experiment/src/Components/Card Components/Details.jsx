@@ -1,3 +1,7 @@
+/* 
+    The Details component contains the text content 
+    describing the goals and components used for Experiment 2!
+*/
 const Details = () => {
 
     return (
@@ -68,4 +72,8 @@ const Details = () => {
 
 }
 
+
+/* 
+    Exporting the Details component out of this JSX file!
+*/
 export default Details;
