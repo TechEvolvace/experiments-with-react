@@ -14,8 +14,10 @@ import { Details } from "./Card Components/Card Components.js"
 const Experiment_Card = () => {
     return (
         <>
-            <h2>Experiment Card</h2>
-            <Details />
+            <div className="experiment-card">
+                <h2>Experiment Card</h2>
+                <Details />
+            </div>
         </>
     )
 }

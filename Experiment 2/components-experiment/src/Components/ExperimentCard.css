@@ -1,1 +1,26 @@
 /* Design styles for ExperimentCard component! */
+
+/* 
+    Important Notes:
+    1) You need to directly import this external CSS file
+    in the JSX file before creating any style selectors 
+    for that component! 
+
+    2) You can't directly add CSS styling to React Fragments.
+    React Fragments are these: <> </>
+    So, encompass the entire component with a div 
+    and give it a className or id and specify some styling 
+    for it! 
+
+    3) In JSX when returning some HTML element, use className
+    instead of class to specify classes in this file 
+    to apply the design! 
+*/
+.experiment-card{
+    box-sizing: content-box;
+    padding: 2%;
+    margin: 20px;
+    border: 1.5px solid rgb(43, 138, 197);
+    box-shadow: 0 0 0.5em #022777;
+    border-radius: 1.2em;
+}
