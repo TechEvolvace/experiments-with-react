@@ -4,6 +4,14 @@
     JSX file.
 */
 import Title from "./Title"
+
+/* 
+    The Experiment_Card component exported out of the
+    ExperimentCard.jsx file is imported and renamed as 
+    the component ExperimentCard! This new ExperimentCard 
+    component is later exported along with Title component
+    out of this Components.js file!
+*/
 import ExperimentCard from "./ExperimentCard"
 
 
