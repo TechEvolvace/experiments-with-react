@@ -1,5 +1,16 @@
-/* Currently not being used! */
-:root {
+/* Currently being used and imported by main.jsx file! */
+
+/*
+  The main.jsx has higher status in hierarchy of React component
+  than App.jsx, so when importing index.css, the style will 
+  be applied. 
+*/
+*{
+  background-color: yellow;
+}
+
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,4 +77,5 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
+
