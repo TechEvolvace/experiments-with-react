@@ -1,1 +1,11 @@
 /* External CSS files to style the About page! */
+
+/* 
+    Finding: The styling of the indivdiual About page is not 
+    overwritten by the styling of the index.css applied 
+    for the main.jsx file!
+*/
+#title{
+    color: blue;
+    /* background-color: skyblue; */
+}

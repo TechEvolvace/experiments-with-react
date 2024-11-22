@@ -1,1 +1,40 @@
 /* External CSS files to style the Home page! */
+
+/* 
+    Finding: The style applied for the Home component is also 
+    applied for the About and Process components too, even if 
+    there is no other background color specified in the External 
+    CSS files for About and the Process component in their 
+    respective About.jsx and Process.jsx files!
+
+    Apparently, the styling can apply to all subcomponents 
+    when the background color matches the specific selector 
+    (element selector, class selector, and/or id selector)
+*/
+h1{
+    background-color: lightcoral;
+}
+
+
+/*
+    Observation: I can influence the color of the HomeTitle component 
+    from this Home.css file even though it's only imported in 
+    Home.jsx file!
+*/
+h2{
+    background-color: lightgreen;
+}
+
+/* 
+    Theory: 
+    1) Home.jsx component imports the HomeTitle component, 
+    so the HomeTitle component is now encompassed in the Home.jsx component,
+    so any applied styling for the Home page now also includes the 
+    HomeTitle and all other components imported into Home.jsx file!
+
+    2) The styling applied by Home.css file for the Home component
+    are applied to the About and Process components, because they have
+    matching h1 element selectors and the styling when imported by 
+    App.jsx are also applied to all other components imported by App.jsx
+    (which also included About and Process components)!
+*/
