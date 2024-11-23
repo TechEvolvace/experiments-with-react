@@ -1,7 +1,7 @@
 /* Currently not used yet */
 
 import { HomeTitle } from "./Home_Components/home.js";
-import "./Home.css";
+import './Home.css';
 
 const Home = () => {
 

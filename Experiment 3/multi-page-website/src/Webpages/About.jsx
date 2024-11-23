@@ -1,5 +1,4 @@
 /* Currently not used yet */
-
 import './About.css';
 
 const About = () => {
