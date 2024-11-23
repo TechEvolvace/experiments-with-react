@@ -8,7 +8,7 @@ const Home = () => {
     /* Returns all needed content to display in Home page */
     return (
         <>
-            <h1>Welcome to the Home page!</h1>
+            <h1 id="title">Welcome to the Home page!</h1>
             <HomeTitle message={"Home Title successfully implemented!"} />
 
             <HomeTitle message={"We got the props verified!"} />

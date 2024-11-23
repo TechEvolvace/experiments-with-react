@@ -11,6 +11,11 @@
     when the background color matches the specific selector 
     (element selector, class selector, and/or id selector)
 */
+
+/* 
+    Including another h1 selector with a different background color in About.css file,
+    overrides this h1 lightcoral background color, regardless of order of importing and exporting components!
+*/
 h1{
     background-color: lightcoral;
 }
