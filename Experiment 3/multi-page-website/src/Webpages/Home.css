@@ -11,8 +11,13 @@
     when the background color matches the specific selector 
     (element selector, class selector, and/or id selector)
 */
+
+/* 
+    Including another h1 selector with a different background color in About.css file,
+    overrides this h1 lightcoral background color, regardless of order of importing and exporting components!
+*/
 h1{
-    background-color: lightcoral;
+    background-color: lightyellow;
 }
 
 
@@ -37,4 +42,25 @@ h2{
     matching h1 element selectors and the styling when imported by 
     App.jsx are also applied to all other components imported by App.jsx
     (which also included About and Process components)!
+*/
+
+/* 
+    New observation:
+    1) Considering that React has a React-DOM that checks for the components that needs to be updated, then
+    it will update all the properties of the React components depending on that new change and how recent it was.
+
+    2) When I import Home.css in the Home.jsx file after importing About.css in About.jsx file, the h1 selector in Home.css file
+    overrides the h1 selector in the About.css file: making the background color of any h1 element light yellow color.
+
+    3) When I import About.css in the About.jsx file after importing Home.css in Home.jsx file, the h1 selector in the About.css
+    file overrrides the h1 selector in the Home.css file: making the background color of any h1 element light blue color. 
+*/
+
+/* 
+    Solution to get around logic issues with displaying not the right properties:
+    1) Use different classes and ids for each component 
+    2) Refer to the components-specific classes and ids when designing components-specific sub-components. 
+    3) Recognize that the styles for a Component (like Home.css for Home component and About.css for About component 
+    are also imported into the higher-level App component, so their selectors get applied to matching selectors for Other 
+    React components even if they aren't meant to affect other components' styling.)
 */

@@ -5,6 +5,7 @@
 
 // This works because it directly access the Home component stored in this location specified in this absolute path.
 import {Home, About, Process} from "./Webpages/webpages.js";
+import "./App.css";
 
 function App() {
 
