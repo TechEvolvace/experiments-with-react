@@ -7,15 +7,36 @@
 import {Home, About, Process} from "./Webpages/webpages.js";
 import "./App.css";
 
+/* Importing main components for routing to different designated webpages! */
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+
 function App() {
 
   return (
+    /* 
+      Router is used instead of BrowserRouter because it was
+      renamed when it was imported from react-router-dom package. 
+    */
+
     <>
-      <h1>Experiment 2: Multipage Website with Functional Page Routing!</h1>
-      <Home />
-      <About />
-      <Process />
+      <h1>Experiment 3: Multipage Website with Functional Page Routing!</h1>
+      
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Process" element={<Process />} />
+        </Routes>
+      </Router>
     </>
+
+    // Old code
+    // <>
+    //   <h1>Experiment 2: Multipage Website with Functional Page Routing!</h1>
+    //   <Home />
+    //   <About />
+    //   <Process />
+    // </>
   )
 }
 
