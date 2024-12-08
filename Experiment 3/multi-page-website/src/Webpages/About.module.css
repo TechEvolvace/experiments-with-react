@@ -11,5 +11,11 @@
 }
 
 h1{
-    background-color: lightblue;
+    background-color: lightskyblue;
+}
+
+.content{
+    font-size: 25px;
+    color: rgb(51, 4, 145);
+    background-color: greenyellow;
 }

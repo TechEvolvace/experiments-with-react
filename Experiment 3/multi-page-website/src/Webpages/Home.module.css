@@ -64,3 +64,13 @@ h2{
     are also imported into the higher-level App component, so their selectors get applied to matching selectors for Other 
     React components even if they aren't meant to affect other components' styling.)
 */
+
+#title{
+    color: red;
+}
+
+.content{
+    font-size: 25px;
+    color: rgb(225, 5, 225);
+    background-color: rgba(88, 255, 116, 0.429);
+}
