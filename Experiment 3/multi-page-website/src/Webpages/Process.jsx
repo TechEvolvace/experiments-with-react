@@ -7,7 +7,7 @@ const Process = () => {
     return (
         <>
             <h1 id={`${styles.title}`}>Welcome to the Process page!</h1>
-            <p>
+            <p className={`${styles.content}`}>
                 This Process page will contain the diagrams and code snippets
                 of the code used to build this website for React Experiment 3!
                 It&apos;s currently in progress.
