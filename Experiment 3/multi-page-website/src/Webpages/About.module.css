@@ -19,3 +19,7 @@ h1{
     color: rgb(51, 4, 145);
     background-color: greenyellow;
 }
+
+.content * {
+    background-color: transparent;
+}
