@@ -19,3 +19,24 @@ h1{
     color: rgb(51, 4, 145);
     background-color: greenyellow;
 }
+
+/* 
+    When using background-color: inherit property, 
+    the background color will be stacked for each children element,
+    making a jarring contrast of each children element's background 
+    color vs the parent elmement's background color.
+
+    When using background-color: transparent property,
+    the background color will be applied the same for each 
+    children eleemnt and does NOT stack for each children element.
+    So the background color of the parent element and 
+    all of the children element will be the same! 
+
+    The color of the text, the color property, is automatically
+    inherited by each children element, so no further action is needed.
+    However, for CSS properties that are not automatically inherited
+    like background-color, make sure to set their properties to transparent!
+*/
+.content * {
+    background-color: transparent;
+}

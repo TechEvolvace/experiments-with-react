@@ -7,13 +7,15 @@ const About = () => {
     return (
         <>
             <h1 id={`${styles.title}`}>Welcome to the About page!</h1>
-            <p className={`${styles.content}`}>
-                The About page will describe the goals and purpose of React 
-                Experiment 3! 
-            </p>
-            <p className={`${styles.content}`}>
-                At the moment, it&apos;s currently in progress. 
-            </p>
+            <div className={`${styles.content}`}>
+                <p>
+                    The About page will describe the goals and purpose of React 
+                    Experiment 3! 
+                </p>
+                <p>
+                    At the moment, it&apos;s currently in progress. 
+                </p>
+            </div>
         </>
     )
 }
