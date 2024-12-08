@@ -1,12 +1,24 @@
 /* External CSS file to style the Process page! */
-#title{
-    color: rgb(2, 98, 90);
-}
 
+/* 
+    CSS Modules styling experiment finding: 
+    Tag selectors still behave the same with CSS modules
+    as with normal external CSS file!
+*/
 h1{
     background-color: orange;
 }
 
+/* 
+    Can apply id selector styling with CSS modules!
+*/
+#title{
+    color: rgb(2, 98, 90);
+}
+
+/* 
+    Can apply classes selector styling with CSS modules!
+*/
 .content{
     font-size: 25px;
     color: rgb(51, 4, 145);
