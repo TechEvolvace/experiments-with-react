@@ -1,11 +1,13 @@
 /* Currently not used yet */
 import styles from './About.module.css';
+import Navbar from "../Navbar.jsx";
 
 const About = () => {
 
     /* Returns all needed content to display in About page */
     return (
         <>
+            <Navbar />
             <h1 id={`${styles.title}`}>Welcome to the About page!</h1>
             <div className={`${styles.content}`}>
                 <p>

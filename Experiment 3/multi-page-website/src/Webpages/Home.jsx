@@ -3,11 +3,14 @@
 import { HomeTitle } from "./Home_Components/home.js";
 import styles from './Home.module.css';
 
+import Navbar from "../Navbar.jsx";
+
 const Home = () => {
 
     /* Returns all needed content to display in Home page */
     return (
         <>
+            <Navbar />
             <h1 id={`${styles.title}`}>Welcome to the Home page!</h1>
             <p className={`${styles.content}`}>
                 The home page is the landing page for React Experiment 3 website!
