@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.75em;
+}
+
+.link-button{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: mediumspringgreen;
+    background-color: rgb(4, 6, 58);
+    padding: 0.5em;
+    border-radius: 25px;
+}
+
+.link-button:hover{
+    background-color: rgb(29, 69, 156);
+}
