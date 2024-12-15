@@ -11,6 +11,7 @@ nav{
     background-color: rgb(4, 6, 58);
     padding: 0.5em;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 .link-button:hover{
