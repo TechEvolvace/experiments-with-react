@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <>
             <Navbar />
-            <h1 id={`${styles.title}`}>Welcome to the Home page!</h1>
+            <HomeTitle message={"Welcome to Experiment 3's Home Page!"} />
             <p className={`${styles.content}`}>
                 The home page is the landing page for React Experiment 3 website!
             </p>
@@ -27,8 +27,7 @@ const Home = () => {
                     <li>For the Process page: add /Process</li>
                 </ul>
             </div>
-             
-            <HomeTitle message={"Home Title successfully implemented!"} />
+            
         </>
     );
 };

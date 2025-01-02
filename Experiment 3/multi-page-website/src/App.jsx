@@ -19,8 +19,6 @@ function App() {
     */
 
     <>
-      <h1>Experiment 3: Multipage Website with Functional Page Routing!</h1>
-      
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
