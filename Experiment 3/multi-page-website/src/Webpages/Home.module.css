@@ -16,9 +16,9 @@
     Including another h1 selector with a different background color in About.css file,
     overrides this h1 lightcoral background color, regardless of order of importing and exporting components!
 */
-h1{
+/* h1{
     background-color: lightyellow;
-}
+} */
 
 
 /*
@@ -71,8 +71,7 @@ h2{
 
 .content{
     font-size: 25px;
-    color: rgb(225, 5, 225);
-    background-color: rgba(88, 255, 116, 0.429);
+    color: rgb(71, 5, 225);
 }
 
 .content * {

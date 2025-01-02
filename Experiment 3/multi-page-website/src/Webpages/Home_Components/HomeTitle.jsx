@@ -4,13 +4,9 @@ const HomeTitle = ({ message }) => {
 
     return (
         <>
-            <h2>
-                This is the Home Page for real!
-            </h2>
-
-            <p>
-                Here is the message: {message}
-            </p>
+            <h1>
+                {message}
+            </h1>
         </>
     );
 };
