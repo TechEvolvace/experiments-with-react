@@ -12,20 +12,15 @@ const Home = () => {
         <>
             <Navbar />
             <HomeTitle message={"Welcome to Experiment 3's Home Page!"} />
-            <p className={`${styles.content}`}>
-                The home page is the landing page for React Experiment 3 website!
-            </p>
+
             <div className={`${styles.content}`}>
                 <p>
-                    Currently, we need to include a real navbar with navigation links,
-                    but you can adjust the current URL of this website to a specific 
-                    webpage by adding the following:    
+                    Currently, React Experiment 3&apos;s website has a functional navbar!  
                 </p>
-                <ul>
-                    <li>For the Home page: add /</li>
-                    <li>For the About page: add /About</li>
-                    <li>For the Process page: add /Process</li>
-                </ul>
+                <p>
+                    I will be working on the appearance and responsive design of the React Experiment 3 over 
+                    the next couple of days!
+                </p>
             </div>
             
         </>
