@@ -1,8 +1,12 @@
-# React + Vite
+# React Experiment 5: Express-based server with a React frontend that can serve static files
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+    This React experiment focuses on exploring Express's static() method to have the server of this 
+program be able to serve static files within a specified directory, such that the browser can display 
+these static files when the user appends a relative path to these static files in the current browser 
+URL! The program in this experiment will also have a React-based frontend to display the instructions 
+on using this program! 
 
-Currently, two official plugins are available:
+## Instructions to Run This Experiment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
