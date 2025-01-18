@@ -37,3 +37,18 @@ The expected result should have the program's frontend displayed with the messag
 
 6) Change the current browser URL into any of the following in the next section below and see it for yourself.
 
+## Loading Each Static File Type in This Experiment
+
+### Light Artwork JPG image file from public/artworks 
+
+### Light Artwork PNG image file from public/artworks
+
+### Light Artwrok MP3 Video file from public/artworks
+
+### PDF file from public/documents 
+
+### JavaScript file from public/assets
+
+### CSS File from public/assets
+
+### HTML file from public 
