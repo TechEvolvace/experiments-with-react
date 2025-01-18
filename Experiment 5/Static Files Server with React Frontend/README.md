@@ -32,6 +32,8 @@ The expected result should have the following displayed: `Running on port: 3550`
 
 The expected result should have the program's frontend displayed with the messages "Static Files Server with React Frontend" and "You can access static files from the public directory by modifying the browser URL!"
 
+![Successfuly load the program's frontend](./screenshots/Successfully%20Load%20with%20React%20Frontend.jpg)
+
 
 6) Change the current browser URL into any of the following in the next section below and see it for yourself.
 
